@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { View, StyleSheet } from "react-native";
-import { Item, Icon, Input, Button, Text } from "native-base";
-import { GREY, WHITE } from "../../../theme/colors";
-import { LARGE, MEDIUM } from "../../../font/font";
+import { Button, Text } from "native-base";
+import { WHITE } from "../../../theme/colors";
+import { MEDIUM } from "../../../font/font";
 
 class CustomButton extends Component {
   state = {};

@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import { View, StyleSheet, TouchableOpacity, Alert } from "react-native";
-import { Button, Text } from "native-base";
-import { WHITE, GREY, NAVY_BLUE } from "../../theme/colors";
+import { View, StyleSheet, Alert } from "react-native";
+import { Text } from "native-base";
+import { WHITE } from "../../theme/colors";
 import CustomTextInput from "../../component/CustomComponents/TextInput/CuustomTextInput";
 import CustomButton from "../../component/CustomComponents/Button/CustomerButton";
-import { SMALL, LARGE } from "../../font/font";
-import CustomHeader from "../../component/Header/Header";
+import { LARGE } from "../../font/font";
+import CustomHeader from "../../component/CustomComponents/Header/CustomHeader";
 
 class PasswordRecoveryScreen extends Component {
   state = {

@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import { Text, View } from "react-native";
 import { Header, Button, Left, Right, Body, Icon } from "native-base";
-import { BLACK, WHITE } from "../../theme/colors";
-import { LARGE } from "../../font/font";
+import { BLACK, WHITE } from "../../../theme/colors";
 
 export default class CustomHeader extends Component {
   render() {

@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import { View, StyleSheet } from "react-native";
-import { Item, Icon, Input, Button, Text } from "native-base";
-import { CUSTOM_FEILD_COLOR, WHITE } from "../../../theme/colors";
-import { MEDIUM, LARGE } from "../../../font/font";
+import { Item, Input } from "native-base";
+import { WHITE } from "../../../theme/colors";
+import { MEDIUM } from "../../../font/font";
 class CustomTextInput extends Component {
   state = {};
   render() {

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { View, StyleSheet, Image } from "react-native";
-import { DARK_BLUE_COLOR, WHITE } from "../../theme/colors";
+import { WHITE } from "../../theme/colors";
 class SplashScreen extends Component {
   componentDidMount() {
     setTimeout(() => {
