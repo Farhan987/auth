@@ -100,7 +100,6 @@ class LoginScreen extends Component {
               this.state.isEmailValid === true &&
               this.state.isPasswordValid === true
             ) {
-              this.props.navigation.navigate("");
             } else {
               Alert.alert("fields are missing/incorrect");
             }

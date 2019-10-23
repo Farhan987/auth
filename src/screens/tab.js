@@ -15,7 +15,7 @@ export default class TabsAdvancedExample extends Component {
     return (
       <Container>
         <Header hasTabs style={{ backgroundColor: "white" }} />
-        <Tabs>
+        <Tabs tabBarUnderlineStyle={{ backgroundColor: "#3ACDE1" }}>
           <Tab
             heading={
               <TabHeading style={{ backgroundColor: "white" }}>

@@ -15,7 +15,7 @@ class ChangePasswordScreen extends Component {
   };
 
   passwordValidation = text => {
-    if (text.length < 6) {
+    if (text.length < 5) {
       this.setState({ isPasswordValid: false });
       this.setState({ password: text });
     } else {
@@ -25,7 +25,7 @@ class ChangePasswordScreen extends Component {
   };
 
   confirmPasswordValidation = text => {
-    if (text.length < 6) {
+    if (text.length < 5) {
       this.setState({ isConfirmPasswordValid: false });
       this.setState({ confirmPassword: text });
     } else {

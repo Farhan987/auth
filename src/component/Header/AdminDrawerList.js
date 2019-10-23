@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Image, TouchableOpacity, AsyncStorage } from 'react-native';
+import { View, Image, TouchableOpacity } from 'react-native';
 import { Container, Header, Content, List, ListItem, Text, Icon, Button } from 'native-base';
 import { NAVY_BLUE, GREY, WHITE, BLACK } from '../../theme/colors';
 export default class DrawerList extends Component {
@@ -149,12 +149,7 @@ export default class DrawerList extends Component {
 							<Icon name="cog" type="FontAwesome" style={{ color: GREY }} />
 							<Text style={{ marginLeft: 10 }}>Settings</Text>
 						</ListItem>
-						<ListItem
-							onPress={() => {
-								AsyncStorage.removeItem('familyLogin');
-								this.props.navigation.navigate('FamilyLoginScreen');
-							}}
-						>
+						<ListItem>
 							<Icon name="sign-out" type="FontAwesome" style={{ color: GREY }} />
 							<Text style={{ marginLeft: 10 }}>Logout</Text>
 						</ListItem>
